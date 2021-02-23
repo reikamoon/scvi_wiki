@@ -1,1 +1,15 @@
 <!-- characters-index -->
+<h1>Meet the Cast</h1>
+{{#each characters}}
+<h2>{{this.name}}</h2>
+<h2>Biological Information</h2>
+<h3>Sex: {{this.sex}}</h3>
+<h3>Birthplace: {{this.birthplace}}</h3>
+<h3>Birthday: {{this.birthday}}</h3>
+<h3>Blood Type: {{this.bloodtype}}</h3>
+<h2>Gameplay Information</h2>
+<h3>Difficulty: {{this.difficulty}}</h3>
+<h3>Weapon: {{this.weapontype}}: {{this.weapon}}</h3>
+<h3>Fighting Style: {{this.fightstyle}}</h3>
+
+{{/each}}
